@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+
+    <TextView
+            android:text="MC Rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView2" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.012"
+            android:textStyle="bold" android:textSize="36sp" android:textAlignment="center"
+            android:textColor="#CC050000"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/mcHrs" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginTop="196dp" app:layout_constraintTop_toTopOf="parent"
+            android:hint="MC Hours"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/pssdHrs"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/mcHrs" android:hint="Possessed Hours"/>
+
+    <Button
+            android:text="Calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mcCalcBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/mcRate"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/pssdHrs"
+            android:backgroundTint="#A30101"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/mcRate"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="112dp"
+            app:layout_constraintTop_toBottomOf="@+id/pssdHrs" android:hint="____"
+            app:layout_constraintHorizontal_bias="0.495" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+            android:textSize="24sp" android:textStyle="bold" android:textAlignment="center"/>
+    <TextView
+            android:text="The percentage of possessed aircraft that are mission capable (either fully mission capable or partially mission capable)."
+            android:layout_width="371dp"
+            android:layout_height="93dp"
+            android:id="@+id/textView3" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/mcHrs" app:layout_constraintVertical_bias="0.098"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

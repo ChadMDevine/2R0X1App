@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/app_bar_main"
+        tools:context=".MainActivity"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/analysis_main"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintVertical_bias="0.949" />
+
+    <Button
+            android:text="+ Note"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:id="@+id/noteBtn"
+            android:background="@drawable/button_main_shape"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.035"
+            app:layout_constraintVertical_bias="0.036"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-black"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="8dp" />
+
+    <Button
+            android:text="Notes history"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:id="@+id/noteBtnHistory"
+            android:background="@drawable/button_main_shape"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintVertical_bias="0.036"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-black"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="#FFFFFF"
+            app:layout_constraintStart_toEndOf="@+id/noteBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.703" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

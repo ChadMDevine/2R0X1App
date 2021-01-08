@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">2R0X1 App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Maintenance Management Analysis</string>
+    <string name="nav_header_subtitle">2R0X1</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Metrics</string>
+    <string name="menu_afi">AFI</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    //Main page middle statement
+    <string name="analysis_main">DOCENDO DISCIMUS</string>
+
+
+    //Metrics Page
+        <string name = "metric_main">Metrics Here!</string>
+
+
+    <string name="mcBtnName">MC Rate</string>
+    <string name="tnmcmBtnName">TNMCM Rate</string>
+    <string name="tnmcsBtnName">TNMCS Rate</string>
+
+
+
+    //AFI clickable links
+
+    <string name="AF1text_go_to"><a href="https://static.e-publishing.af.mil/production/1/af_a4/publication/afi21-101/afi21-101.pdf">Aircraft and Equipment Maintenance Management (21-101)</a></string>
+    <string name="AF2text_go_to"><a href="https://static.e-publishing.af.mil/production/1/af_a4/publication/afi21-103/afi21-103.pdf">Equipment Inventory, Status and Reporting (21-103)</a></string>
+
+    <string name="text_go_to"><a href="https://static.e-publishing.af.mil/production/1/aetc/publication/aetci21-105/aetci21-105.pdf">Logistics Performance Measures Reporting Procedures (21-105)</a></string>
+
+
+
+
+
+
+</resources>
