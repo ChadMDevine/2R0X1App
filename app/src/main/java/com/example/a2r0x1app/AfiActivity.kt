@@ -17,9 +17,9 @@ class AfiActivity: AppCompatActivity() {
 
 
         //Below allows links to AFIs to function properly
-        textView_link.setMovementMethod(LinkMovementMethod.getInstance())
-        textView1_link.setMovementMethod(LinkMovementMethod.getInstance())
-        textView2_link.setMovementMethod(LinkMovementMethod.getInstance())
+        textView_link.movementMethod = LinkMovementMethod.getInstance()
+        textView1_link.movementMethod = LinkMovementMethod.getInstance()
+        textView2_link.movementMethod = LinkMovementMethod.getInstance()
 
     }
 

@@ -27,6 +27,21 @@
     <string name="tnmcmBtnName">TNMCM Rate</string>
     <string name="tnmcsBtnName">TNMCS Rate</string>
 
+    //Dropdown spinner for selectable options
+
+    <string name="selected_item">Selected item:</string>
+    <string-array name="Languages">
+        <item>Select Item</item>
+        <item>Status</item>
+        <item>Inspection</item>
+        <item>Break</item>
+        <item>Abort</item>
+        <item>Depot</item>
+        <item>Contractor</item>
+        <item>QA Fail</item>
+        <item>Other</item>
+    </string-array>
+
 
 
     //AFI clickable links
